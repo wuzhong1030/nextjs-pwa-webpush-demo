@@ -4,7 +4,7 @@ import { unstable_noStore as noStore } from "next/cache"; //https://nextjs.org/d
 
 if (process.env.VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
   webpush.setVapidDetails(
-    "https://nextjs-pwa-webpush-template.vercel.app/",
+    "https://nextjs-pwa-webpush-demo.vercel.app/",
     process.env.VAPID_PUBLIC_KEY,
     process.env.VAPID_PRIVATE_KEY
   );
