@@ -85,6 +85,7 @@ const useServiceWorker = ({ vapidPublicKey }: { vapidPublicKey?: string }) => {
           }
         },
         function (err) {
+          alert(1111)
           console.error("Unsuccessful service worker registration", err);
         }
       )
